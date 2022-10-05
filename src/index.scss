@@ -1,0 +1,34 @@
+@import "./scss/buttons";
+@import "./scss/footer";
+@import "./scss/forms";
+@import "./scss/loader";
+@import "./scss/nav";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  background-color: #fafbfc;
+  color: #0d112b;
+  scroll-behavior: smooth;
+}
+
+.auto-complete-container,
+.select-container {
+  ::-webkit-scrollbar {
+    border-radius: 5px;
+    width: 5px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #ffffff;
+    border-radius: 2.5px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgb(226 232 240);
+    border-radius: 2.5px;
+  }
+}

@@ -1,0 +1,33 @@
+a.button {
+  @apply tw-border;
+  @apply tw-px-6;
+  @apply tw-py-3;
+  @apply tw-rounded-lg;
+
+  @apply disabled:tw-opacity-50;
+  @apply disabled:hover:tw-opacity-50;
+  @apply hover:tw-opacity-80;
+
+  &.button-secondary {
+    @apply tw-bg-secondary;
+    @apply tw-border-secondary;
+    @apply tw-text-white;
+  }
+}
+
+button.button {
+  @apply tw-border;
+  @apply tw-px-6;
+  @apply tw-py-3;
+  @apply tw-rounded-lg;
+
+  @apply disabled:tw-opacity-50;
+  @apply disabled:hover:tw-opacity-50;
+  @apply hover:tw-opacity-80;
+
+  &.button-secondary {
+    @apply tw-bg-secondary;
+    @apply tw-border-secondary;
+    @apply tw-text-white;
+  }
+}
