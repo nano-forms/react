@@ -1,5 +1,4 @@
 @import "./scss/buttons";
-@import "./scss/footer";
 @import "./scss/forms";
 @import "./scss/loader";
 @import "./scss/nav";
@@ -7,13 +6,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-html,
-body {
-  background-color: #fafbfc;
-  color: #0d112b;
-  scroll-behavior: smooth;
-}
 
 .auto-complete-container,
 .select-container {
